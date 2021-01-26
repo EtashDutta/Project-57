@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding-top:800px;
+     background:linear-gradient(orange 0%,yellow 50%,red 100%);
+}
+.profile{
+    width:175px;
+    margin-bottom: 50px;
+    border-radius:50%;
+}
+#welcome{
+    position:absolute;
+    overflow:hidden;
+    height:800px;
+    color:brown;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    opacity:0.8;
+   
+    display:table;
+    width:100%;
+}
+.parallax-inner{
+    display:table-cell;
+    position:relative;
+    text-align:center;
+    vertical-align:middle;
+}
+h1{
+    font-size:40px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+h2{
+ font-size:30px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300    
+}
+#bio{
+    padding:50px;
+    text-align: center;
+    font-size:42px;
+}
+.line{
+    height:6px;
+    background-color:black;
+    width:70px;
+    margin:8px auto;
+}
+p{
+    max-width:450px;
+    margin:25px auto;
+    font-size:17px;
+    line-height:1.3;
+}
